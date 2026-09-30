@@ -37,6 +37,12 @@ A catalog named **Corporate Resource Access** was created to organize the resour
 
 The catalog contains the security groups used in the scenarios and their corresponding access packages.
 
+<img width="800" alt="Creating the catalog" src="https://github.com/user-attachments/assets/5eb1a07e-4291-4d54-ac4c-939d69640d74" />
+
+<img width="800" alt="All new SGs" src="https://github.com/user-attachments/assets/087ada36-db4b-47a1-873b-747418659123" />
+
+<img width="800" alt="catalog resourse creation" src="https://github.com/user-attachments/assets/d55fe4ac-3aa5-439c-9ad9-bc1cfee9338e" />
+
 ---
 
 # Scenarios
@@ -49,6 +55,10 @@ A security group named **Q4 Marketing Campaign** was created, along with an acce
 
 The access package is configured to expire after **90 days**.
 
+<img width="800" alt="Access package creation" src="https://github.com/user-attachments/assets/a3efdc6c-259b-4d79-b9fb-8d717d4ca1b0" />
+
+<img width="800" alt="Expiration and access review" src="https://github.com/user-attachments/assets/9f9699e9-6a06-4f92-9521-ec47d251c222" />
+
 **Scenario:**
 
 * Kaitlyn Stewart is a member of the marketing campaign.
@@ -57,6 +67,11 @@ The access package is configured to expire after **90 days**.
 * Kaitlyn is automatically added to the **Q4 Marketing Campaign** security group.
 
 This demonstrates how an access package can replace manual group membership requests with a controlled request and approval process.
+
+<img width="800" alt="Madison approves marketing users" src="https://github.com/user-attachments/assets/165119c5-dc6d-4441-962e-4a5419a107bc" />
+
+<img width="800" alt="KS group membership" src="https://github.com/user-attachments/assets/837970a7-d30f-4d57-923d-0454632be82b" />
+
 
 ---
 
@@ -77,6 +92,10 @@ The access package is configured to expire after **90 days**.
 
 This demonstrates how employees can receive temporary access to sensitive business information when it is required for a specific project.
 
+<img width="800" alt="Madison approves marketing users" src="https://github.com/user-attachments/assets/ad9fd232-028a-49c5-9c73-d0b0734e2e39" />
+<img width="800" alt="Acces request approved log " src="https://github.com/user-attachments/assets/521ef244-239a-43ee-802a-3e6e7f31dc29" />
+<img width="800" alt="V will added to group" src="https://github.com/user-attachments/assets/8028437c-267d-47eb-af30-38e8bf5d8d70" />
+
 ---
 
 ## 3. SOC Internship
@@ -95,6 +114,13 @@ The access package is configured to expire after **90 days**.
 * Cameron is automatically added to the **SOC Interns** security group.
 
 This demonstrates how temporary access can be provided to employees who need additional permissions for a specific assignment.
+
+<img width="800" alt="CL access package" src="https://github.com/user-attachments/assets/f376d451-db22-4d1c-8bc4-8710520ec567" />
+
+<img width="800" alt="Sec ops approving CL" src="https://github.com/user-attachments/assets/30a1ff00-7fd8-498f-a0da-55cfb8c5c6ab" />
+
+<img width="800" alt="CL group membership" src="https://github.com/user-attachments/assets/71c3ef01-ce4d-4e47-bfd6-e0f1eb859d23" />
+
 
 ---
 
@@ -116,6 +142,10 @@ Victoria no longer requires access to the financial records after completing her
 
 Her access was denied during the access review, and her access package assignment was removed, which resulted in her membership in the **Q4 Financial Records** security group being removed.
 
+<img width="800" alt="Access review denied" src="https://github.com/user-attachments/assets/d35d382b-e444-46e1-9456-49356fd8c4b1" />
+<img width="800" alt="EM removes access VW" src="https://github.com/user-attachments/assets/7776889f-4384-4d29-bb2e-9f1589b7cc3f" />
+<img width="800" alt="Group membership removed VW" src="https://github.com/user-attachments/assets/562f80e6-a8db-47db-b997-b24abc083fad" />
+
 ### SOC Interns
 
 **Cameron Lawson — Approved**
@@ -131,6 +161,10 @@ The SOC internship eventually ends, and Cameron Lawson no longer requires access
 Cameron's access package assignment reaches its expiration date, causing the assignment to expire and Cameron to be automatically removed from the **SOC Interns** security group.
 
 This demonstrates how access can be automatically removed when temporary access is no longer required.
+
+<img width="800" alt="entitlment ended for CL" src="https://github.com/user-attachments/assets/dae99a2e-c8bf-44bb-a746-80a267e30520" />
+<img width="800" alt="CL removed from group" src="https://github.com/user-attachments/assets/31b0d39e-e353-4681-b914-eff93a15bb61" />
+
 
 ### Testing the Expiration
 
@@ -156,13 +190,3 @@ This project demonstrates several real-world Identity and Access Management conc
 * **Automatic Deprovisioning** — Removing access when it is denied or expires.
 * **Security Groups** — Using group membership to provide access to business resources.
 * **Identity Governance** — Controlling the full lifecycle of user access rather than simply granting permissions.
-
----
-
-# Project Takeaway
-
-The goal of this project was to demonstrate the **governance side of IAM**.
-
-Instead of having employees contact IT and manually request group membership, users can request access through an access package, have the request approved, receive the required access, and have that access periodically reviewed or automatically removed when it is no longer needed.
-
-This creates a more controlled and auditable approach to managing temporary and additional access.
