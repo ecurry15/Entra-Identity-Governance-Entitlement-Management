@@ -1,6 +1,7 @@
-# Microsoft Entra Identity Governance & Access Management
+# Microsoft Entra Identity Governance & Entitlement Management 
 
-<img width="900" alt="Lab diagram" src="https://github.com/user-attachments/assets/1b5857c0-e75f-4299-b1f1-f5e7c8ec9216" />
+<img width="900" alt="Lab diagram" src="https://github.com/user-attachments/assets/10bfb1f4-8f1b-4968-9298-301b35901cb8" />
+
 
 
 ## Overview
